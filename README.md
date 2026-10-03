@@ -20,4 +20,23 @@ Bu repo Git, GitHub ve Docker pratiği yapmak için oluşturuldu.
 
 ## Docker Notları
 
-Bu bölüm ilerleyen derslerde Docker komutları ile doldurulacak.
+Docker, uygulamaları container denen izole ortamlarda çalıştırmaya yarar.
+
+### Temel Kavramlar
+
+- Image: Uygulamanın çalıştırılmaya hazır paketidir.
+- Container: Image'ın çalışan halidir.
+- Dockerfile: Kendi image'ını oluşturmak için yazılan tarif dosyasıdır.
+- Volume: Container silinse bile veriyi kalıcı tutmaya yarar.
+- Network: Container'ların birbirleriyle konuşmasını sağlar.
+- Docker Compose: Birden fazla container'ı tek dosya ile çalıştırmaya yarar.
+
+### Temel Komutlar
+
+```bash
+docker ps
+docker images
+docker run hello-world
+docker logs container_adi
+docker stop container_adi
+```
