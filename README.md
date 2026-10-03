@@ -40,3 +40,13 @@ docker run hello-world
 docker logs container_adi
 docker stop container_adi
 ```
+
+### Kurulum Testi
+
+Bu bilgisayarda Docker Desktop WSL uzerinden `docker.exe` komutu ile calisiyor.
+
+```bash
+docker.exe run hello-world
+```
+
+Bu komut Docker'in calistigini test eder. Calistiginda Docker Hub'dan `hello-world` image'ini indirir, bu image'dan kisa sureli bir container olusturur ve test mesajini terminale yazar.
